@@ -1,0 +1,177 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: url('Images/Home page background image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+header .logo img {
+    height: 150px; /* Adjust as necessary */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff5722; /* Change on hover */
+}
+
+.hero {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 100px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.btn {
+    background: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background: #e64a19;
+    transform: scale(1.05);
+}
+
+/* Section Styles */
+section {
+    background-color: #ffffff; /* White background for sections */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; /* Center and limit width */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+h2 {
+    color: #004a99; /* Dark blue for section headings */
+    margin-bottom: 10px;
+}
+
+/* Add About Us Specific Styles Below Here */
+/* Company Overview Section Styles */
+.company-overview {
+    margin-bottom: 20px; /* Space below this section */
+}
+
+/* Partnerships Section Styles */
+.partnerships {
+    margin-bottom: 20px; /* Space below this section */
+}
+
+.service-container, .team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Team Container */
+.team-container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap to new line on smaller screens */
+    justify-content: center; /* Center team members */
+    gap: 20px; /* Space between team members */
+}
+
+/* Team Member Styles */
+.team-member {
+    background-color: #e9ecef; /* Light gray background */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center align text */
+    padding: 15px;
+    width: 250px; /* Fixed width for consistency */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.team-member img {
+    width: 100%; /* Make images responsive */
+    border-radius: 50%; /* Rectangular */
+    height: auto; /* Maintain aspect ratio */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 300px; /* Adjust as necessary */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 15px;
+    background: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+form button:hover {
+    background: #e64a19;
+    transform: scale(1.05);
+}
+}
